@@ -1,0 +1,7 @@
+#adding n elements into the list and find the 0,2,4 index values
+l=[]
+n=int(input("enter the n value:"))
+for i in range (n):
+    x=int(input("enter the element:"))
+    l.append(x)
+print(l[0],l[2],l[4])
